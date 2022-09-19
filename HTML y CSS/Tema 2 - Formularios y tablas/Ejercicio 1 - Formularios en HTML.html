@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 02 - Formularios en HTML</title>
+        <!-- El título debe ser "Ejercicio 02 - Formularios en HTML"
+
+El body debe contener un formulario que cumpla las siguientes características
+
+El atributo action será "/"
+
+Debe contener los siguientes campos:
+
+Un campo de texto llamado "nombre"
+
+Un campo numérico llamado "edad"
+
+Un campo de área de texto llamado "frase-favorita"
+
+Un botón de envío
+
+Un botón de reset -->
+    </head>
+    <body>
+        <form action="/">
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" />
+            </div>
+            <br>
+            <div>
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" id="edad" min="0" />
+            </div>
+            <br>
+            <div>
+                <label for="frasefavorita">Frase favorita</label>
+                <textarea type="text" name="frasefavorita" id="frasefavorita" min="0"></textarea>
+            </div>
+            <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
