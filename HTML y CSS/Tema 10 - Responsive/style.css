@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    font-size: 2rem;
+    gap: 1rem;
+}
+
+.barra-lateral {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.elemento {
+    background-color: crimson;
+    padding: 1rem;
+}
+
+.main {
+    background-color: coral;
+    padding: 1rem;
+    flex-grow: 1;
+}
+
+@media (max-width: 640px) {
+    body {
+        flex-direction: column-reverse;
+    }
+
+    .barra-lateral {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
