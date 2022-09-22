@@ -13,7 +13,7 @@ public class Sesion2 {
 
     }
 
-    public static double precioIva(int precio) {
+    static double precioIva(int precio) {
         return precio * 1.21;
     }
 }
